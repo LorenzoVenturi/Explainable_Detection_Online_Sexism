@@ -15,3 +15,10 @@ Given an input text sentence, the task is to label the sentence as not-sexist or
 **Text**: *``That’s completely ridiculous a woman flashing her boobs is not sexual assault in the slightest.''*
 
 **Label**: Not sexist
+
+
+## Approach
+
+We will tackle the five-class classification task with LLMs.
+
+In particular, we'll consider zero-/few-shot prompting approaches to assess the capability of some popular open-source LLMs on this task.
